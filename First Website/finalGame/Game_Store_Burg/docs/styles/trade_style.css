@@ -1,0 +1,76 @@
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    align-items: center;
+    padding: 20px;
+    color:#FFCE8A ;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around; 
+    gap: 20px; 
+}
+
+
+.Hal {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+a{
+    color:white;
+}
+.top{
+    background-image: url('Gemini_Generated_Image_eukeh5eukeh5euke.png');
+    height:80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:7px solid #DD1C1A;
+    border-radius:20px;
+}
+
+.Bigwords{
+    margin-top: 200px;
+    font-size: 5rem;
+    color:white;
+    text-align: center;
+}
+
+body{
+    background-color: #086788;
+}
+
+.content{
+    margin-top:100px;
+    color: #FFCE8A;
+    font-size: xx-large;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.p1{
+    grid-column: 1;
+    padding: 20px;
+}
+.p2{
+    grid-column: 2;
+    padding: 20px;
+}
+.p3{
+    grid-column: 3;
+    padding: 20px;
+}
+.p4{
+    grid-column: 1 / span 3;
+    padding: 20px;
+    text-align: center;
+}
+/* Main:#086788 
+
+Second:#FFCE8A 
+
+Accent 1: #DD1C1A 
+
+Accent 2: White   */
