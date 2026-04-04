@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jack Tingey WDD 130 Portal Page</title>
+    <link rel="stylesheet" href="styles.css">
+<style>
+    .nav-links{
+    background-color:black;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    width:100%;
+     align-items: center;
+     padding: 10px;
+    margin-left:-10px;
+ }
+.nav-links:hover{
+    background-color: #543030;}
+
+.everything {
+    background-image: url("IMG_1132.JPG");
+    background-size: cover;   
+    background-position: center;  
+    background-attachment: fixed; 
+    min-height: 100vh;            
+    margin: 0;                  
+}
+
+*{
+    color:white;
+}
+.subheading{
+    display: flex;
+    justify-content: center;
+    font-size:200%;
+}
+.bullet-points{
+    display: flex;
+    gap:30px;
+    margin-bottom:50px;
+}
+</style>
+
+
+
+<body class="everything">
+
+     <div class="nav-links"><img src="portal_logo.png" class="logo" alt="logo"> 
+    <a href="index.html">Home</a> 
+    <a href="wwr/index.html">WWR</a>
+    <a href="ice.html">ICE</a>
+    <a href="aboutme.html">About Me</a>
+    </div>
+
+    <div id="about-me">
+    <section class="hero">
+        <h2 class="subheading">About Me</h2>
+    </section>
+
+    <section class="bullet-points">
+        <div class="bullet-point">
+            <h3>Education</h3>
+            <p>My name is Jack Tingey and this is my second semester studying computer science at BYUI.</p>
+        </div>
+        <div class="feature-item">
+            <h3>Hobbies</h3>
+            <p>I loves listening to music and playing guitar. I also dabble in sound engineering.</p>
+        </div>
+        <div class="feature-item">
+            <h3>Background</h3>
+            <p>I've lived all over the united states: Pennsylvania, Kansas, Utah, Arizona, and Texas. </p>
+        </div>
+        </section>
+    </section>
+    </div>
+</body>

@@ -1,0 +1,83 @@
+/* =
+Jack Tingey
+WDD130
+Date 11 Feb 2026
+Citations
+[0]
+[1] VS Code
+*/
+
+
+body {
+    background-color: lightpink;
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+header{
+    align-self: center;
+    color: khaki;
+    background-color: hotpink;
+    width:100%;
+    border:10px hotpink solid;
+}
+ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+li{
+    list-style: none;
+    gap:0;
+}
+
+section {
+    background-color: hotpink;
+    width:95%;
+    margin-bottom: 10%;
+    border-radius: 10%;
+    border:15px hotpink solid;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding:5%;
+}
+
+h1 {
+    grid-column: 1;
+    grid-column: 1;
+    display: flex;
+    justify-content: center;
+    margin-top: 50%;
+    margin-bottom: 50%;
+    font-size: 500%;
+    text-shadow: 20px 20px 20px hotpink;
+}
+
+h2 {
+    font-size: 300%;
+}
+
+img {
+    border: 10px white solid;
+    margin-bottom: 10%;
+    width:90%;
+    grid-column: 2;
+    grid-row: 2;
+    size: 10%;
+    margin-left: 10%;
+}
+
+
+footer{
+    background-color: hotpink;
+    width:100%;
+}
+
+p{
+    font-size: 200%;
+}
